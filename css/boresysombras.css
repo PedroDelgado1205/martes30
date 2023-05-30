@@ -14,5 +14,5 @@ section{
     height: 10vh;
     box-shadow: 10px 5px 5px rgb(96, 40, 40);
     border-radius: 10px;
-    border: 5px gray solid;
+    border: 5px gray groove;
 }
