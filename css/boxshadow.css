@@ -1,0 +1,18 @@
+*{
+    box-sizing: border-box;
+}
+
+.box{
+    background-color: brown;
+    width: 200px;
+    padding: 50px;
+    color: gold;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    /* border-radius: 30px; */
+    /* box-shadow: inset -5px -5px 10px 0 #111; */
+    box-shadow: 5px 5px rgb(0, 98, 128), 
+    10px 10px rgb(136, 255, 0),
+    15px 15px purple;
+}
