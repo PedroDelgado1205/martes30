@@ -5,7 +5,7 @@
 :root {
 	--fondoPrimario: #FCF7F8;
 	--colorOscuro: #1A1E21;
-	--azul: #3860EC;
+	--azul: #3895ec;
 }
 
 body {
@@ -57,79 +57,80 @@ label {
 
 /* ? ------------- PSEUDO-CLASES ------------- */
 .enlace:active {
-	background: #000;
+	background: #961414;
 }
 
 .enlace:link {
-	color: blue;
+	color: rgb(13, 13, 133);
 }
 
 .enlace:visited {
-	color: #b1b1b1;
+	color: #acd30e;
 }
 
 .enlace:hover {
-	color: orange;
+	color: rgb(247, 0, 255);
 }
 
 
 /* ? --- --- --- --- PARRAFOS --- --- --- --- */
 .parrafos p:first-child {
 	background: var(--azul);
-	color: #fff;
+	color: #02ff67;
 }
 
 .parrafos p:last-child {
-	background: #000;
-	color: #fff;
+	background: #a3083b;
+	color: #ee6e13;
 }
 
 
 /* ? --- --- --- --- ELEMENTOS --- --- --- --- */
 .elementos p:first-of-type {
 	background: var(--azul);
-	color: #fff;
+	color: #02ff67;
 }
 
 .elementos div:last-of-type {
-	background: #000;
-	color: #fff;
+	background: #a3083b;
+	color: #ee6e13;
 }
 
 
 /* ? --- --- --- --- LISTA --- --- --- --- */
-.lista :nth-child(2){
+.lista :nth-child(5){
 	background: var(--azul);
-	color: #fff;
+	color: #02ff67;
 }
 
-.lista :nth-last-child(3){
-	background: #000;
-	color: #fff;
+.lista :nth-last-child(5){
+	background: #a3083b;
+	color: #ee6e13;
 }
+
 
 
 /* ? --- --- --- --- LISTA 2 --- --- --- --- */
-.lista2 p:nth-of-type(2) {
+.lista2 p:nth-of-type(1) {
 	background: var(--azul);
-	color: #fff;
+	color: #02ff67;
 }
 
-.lista2 div:nth-last-of-type(2) {
-	background: #000;
-	color: #fff;
+.lista2 div:nth-last-of-type(1) {
+	background: #a3083b;
+	color: #ee6e13;
 }
 
 
 /* ? --- --- --- --- LISTA 3 --- --- --- --- */
 .lista3 p:only-child {
 	background: var(--azul);
-	color: #fff;
+	color: #02ff67;
 }
 
 
 /* ? --- --- --- --- LISTA 4 --- --- --- --- */
 .lista4 p:only-of-type {
-	background: var(--azul);
-	color: #fff;
+	background: #a3083b;
+	color: #ee6e13;
 }

@@ -96,7 +96,7 @@ body {
 }
 
 .formulario .correo:valid {
-	background: rgb(90, 211, 126);
+	background: rgb(20, 170, 65);
 	border: none;
 }
 
@@ -106,7 +106,7 @@ body {
 }
 
 .formulario .mensaje:required {
-	background: rgb(222, 224, 63);
+	background: #ff8800;
 	border: none;
 }
 
@@ -119,11 +119,11 @@ body {
 }
 
 .formulario .edad:in-range {
-	background: rgb(69, 195, 111);
+	background: rgb(20, 170, 65);
 	border: none;
 }
 
 .formulario .edad:out-of-range {
-	background: rgb(202, 41, 41);
+	background: #B44242;
 	border: none;
 }
